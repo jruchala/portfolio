@@ -1,0 +1,95 @@
+
+
+[class*='col-'] {
+  float: left;
+}
+
+.col-2-3 {
+  width: 75%;
+}
+
+.col-1-3 {
+  width: 25%;
+  background-color: #787781
+}
+
+.grid:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+[class*='col-'] {
+  padding-right: 20px;
+}
+[class*='col-']:last-of-type {
+  padding-right: 0;
+}
+
+body {
+  color: #333333;
+  font-family: 'Lato', sans-serif;
+}
+
+body h3 {
+  font-family: 'Slabo 27px', serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color:#123456;
+}
+
+hr {
+  color: #333333;
+}
+
+.masthead {
+  padding: 3em 0;
+  text-align: center;
+  background-image: url("../images/phono.jpeg");
+}
+
+.masthead h1 {
+  font-size: 3em;
+}
+
+.projects {
+  padding-bottom: 5rem;
+  background-color: #827fb2;
+}
+
+.projects .articles {
+  width: 20%;
+  display: inline-block;
+  box-sizing: border-box;
+  text-align: center;
+  float: left;
+}
+
+.footer {
+  background-color: #57547C;
+}
+
+.content-footer {
+  padding-top: 2em;
+  text-align: center;
+}
+
+.social > li {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+.module {
+  text-align: center;
+}
